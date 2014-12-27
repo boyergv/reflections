@@ -1,0 +1,16 @@
+Reflection 1:
+
+"What happens when you initialize a repository? Why do you need to do it?"
+
+Initializing a repository lets you define what files will be tracked. You need to do it so that git will know what files to track.
+This does not mean that it is automatically tracking the files though; it just means that is can track the files becaues it now has
+a place to put the git information.
+
+Reflection 2:
+
+"How is the staging area different from the working directory and the repository? What value do you think it offers?"
+
+This is a tougher question for me. I think it offers some value because you can make sure that you are tracking/committing only files that you
+intend on committing. Otherwise, junk might be committed that you are using for brief purposes in the directory. It is different from the
+working directory because the wd is where you keep your files. The staging area is priming the files for commits. It's the no-man's-land
+between the wd and the repo.
