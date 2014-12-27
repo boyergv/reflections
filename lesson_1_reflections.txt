@@ -1,0 +1,66 @@
+The first thing I want to reflect on is that I needed to set up a file path for my .bash_profile
+I used a command to unhide all files "defaults write com.apple.finder AppleShowAllFiles YES" to get it to show everything. ("NO" hides it)
+Now I can use "subl" to launch Sublime from the command line.
+Old code for making "subl" work: export PATH=$PATH:/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin"
+New code for making "subl" work in .bash_profile: alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
+This is the link for setting everything up on Udacity: https://www.udacity.com/wiki/ud775/sublime
+
+Now for reflections:
+
+I think using a command like diff -u firstfile.txt secondfile.txt (which means "difference uniform") is useful for finding errors that
+may have been added from many people collaborating together. If multiple people on a team are working together, it can be hard to
+pinpoint where something went wrong and what had to be changed to get there. Diff has some limitations though. First, it highlights
+every difference, not necessarily the ones that are important. So if a lot has changed, we will need to look through everything.
+It also is not a bug detector. It can't tell me what is exactly broken, only what has changed.
+
+That's all I have for today.
+
+Next Reflection:
+
+"How could having easy access to the entire history of a file make you a more efficient programmer in the long term?"
+
+It could help me keep track of what features I am adding on each days and be able to "go back" if I break something later. I could
+also let me figure out how to collaborate with other people and incorporate their changes into a document. I won't have to save a million
+different versions of my files in order to go back in time and figure out what I did.
+
+Next Reflection:
+
+"What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically
+saved, like Google docs does?""
+
+The order of commits will seem more logical to me, and address particular changes I make the file. It is very similar to what we do when
+working on a document for school, but now I can go back and see what was different. Google Docs updates constantly, which is nice if I am not
+thinking too much about what has changed and why, but it also has no organization. If another person collaborates with me and makes a ton of
+changes, it can be hard to go back and see each part that was altered.
+
+Next Reflection:
+
+"Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?"
+
+Git is designed with coders in mind. Google Docs tracks each document separately and does not see relationships between documents. It is not
+so much for project tracking as much as document tracking. Repositories let us keep collections of files that are related together in one spot
+and see how all of them change over time.
+
+Next Reflection:
+
+"How can you use the commands git log and git diff to view the history of files?"
+
+I can use "git log" to find the history of the different commits. I can click the down arrow to find previous commits. Older commits are lower
+on the screen. I can do a "git diff old_commit_id new_commit_id" to see what changes are made. Red will be the deletions and green will be the
+additions. (I had changed the config of git to let it do that per instructions from Udacity). That is the hard way of counting up the number
+of differences between files. I could also just use the "git log --stat" to see how many delections and insertions were made.
+
+Next Reflection:
+
+"How might using version control make you more confident to make changes that could break something?"
+
+It makes us more confident because we know that we can go back and see what broke and have an accurate history of what revisions took place.
+We can track down the bugs that we put into the program and don't have to worry about what things might have gone wrong, because we know that 
+we can find them again if we need to do so.
+
+Next Reflection:
+
+"Now that you have your workspace set up, what do you want to try using Git for?"
+
+I would like to complete this course. In the future, I would like to use Git to make my projects for OAA better, or possibly work on my own
+website that Reed gave me a while ago. I would like to actually post applications to the web if I can someday use R to analyze some cool data.
