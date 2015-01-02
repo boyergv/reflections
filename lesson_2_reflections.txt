@@ -44,3 +44,10 @@ Reflection 6:
 
 The result of merging two branches together is a new branch that incorporates the work of two people into one cohesive set. It lets people
 share their work and now have a new point where everyone can work on the same document, and make sure features combine.
+
+Reflection 7:
+
+"What are the pros and cons of Git’s automatic merging vs. always doing merges manually?"
+
+Pros of automatic merging: doesn't require looking at every single line of code to verify because it make some assumptions about what we would 
+want to keep. If we always did merges manually, we would have to do a lot of reviewing of the code for each change.
