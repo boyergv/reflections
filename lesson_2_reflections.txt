@@ -14,3 +14,26 @@ This is a tougher question for me. I think it offers some value because you can 
 intend on committing. Otherwise, junk might be committed that you are using for brief purposes in the directory. It is different from the
 working directory because the wd is where you keep your files. The staging area is priming the files for commits. It's the no-man's-land
 between the wd and the repo.
+
+Reflection 3:
+
+"How can you use the staging area to make sure you have one commit per logical change?"
+
+I can make a bunch of changes to a lot of different files now. When I use git diff, I can see what the changes are between the working
+directory and the staging area. If I want to see what the differences are between the staging area and the most recent commit, I can do a git
+diff --staged. I will only add to the staging area things that are part of one logical change, and add any other project changes or files to a
+separate commit.
+
+Reflection 4:
+
+"What are some situations when branches would be helpful in keeping your history organized? How would branches help?"
+
+Branches would help if I decided to change a fundamental premise of a project, but might not want to keep that as the source of truth.
+It's important to have a back-up to be able to use if an explored hypothesis turns out not to be useful.
+
+Reflection 5:
+
+"How do the diagrams help you visualize the branch structure?"
+
+Diagrams let me see how the different versions are related to each other. They give a sense for the evolution of a project and the components 
+that go into its development.
