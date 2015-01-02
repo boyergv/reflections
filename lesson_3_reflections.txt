@@ -1,0 +1,6 @@
+Reflection 1:
+
+"When would you want to use a remote repository rather than keeping all your work local?"
+
+If I am a very mobile developer that uses multiple computers or has multiple collaborators, this could be a very
+helfpul feature that lets me track files no matter where I am.
