@@ -4,3 +4,9 @@ Reflection 1:
 
 If I am a very mobile developer that uses multiple computers or has multiple collaborators, this could be a very
 helfpul feature that lets me track files no matter where I am.
+
+Reflection 2:
+
+"Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?"
+
+The "source of truth" might not be on GitHub. The changes I might be making on my local computer might be the ones to keep.
