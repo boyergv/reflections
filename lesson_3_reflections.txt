@@ -10,3 +10,11 @@ Reflection 2:
 "Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?"
 
 The "source of truth" might not be on GitHub. The changes I might be making on my local computer might be the ones to keep.
+
+Reflection 3:
+
+"Describe the differences between forks, clones, and branches. When would you use one instead of another?"
+
+A fork is taking a copy of somone else's remote on GitHub and putting it on my own GitHub account; a clone takes a copy of files on GitHub
+and puts it on my local machine or copies files on my own machine to another place on my own machine; and branches makes different versions
+of a set of files on my local machine.
