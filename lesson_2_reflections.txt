@@ -37,3 +37,10 @@ Reflection 5:
 
 Diagrams let me see how the different versions are related to each other. They give a sense for the evolution of a project and the components 
 that go into its development.
+
+Reflection 6:
+
+"What is the result of merging two branches together? Why do we represent it in the diagram the way we do?"
+
+The result of merging two branches together is a new branch that incorporates the work of two people into one cohesive set. It lets people
+share their work and now have a new point where everyone can work on the same document, and make sure features combine.
