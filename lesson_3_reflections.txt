@@ -18,3 +18,11 @@ Reflection 3:
 A fork is taking a copy of somone else's remote on GitHub and putting it on my own GitHub account; a clone takes a copy of files on GitHub
 and puts it on my local machine or copies files on my own machine to another place on my own machine; and branches makes different versions
 of a set of files on my local machine.
+
+Reflection 4:
+
+"What is the benefit of having a copy of the last known state of the remote stored locally?"
+
+I believe that having a copy of the last known state of a remote branch stored locally can let us be aware of other people's collaborations
+without having to incorporate them into our "source of truth" documents on the local machine. We can decide what we want to incorporate
+and what to leave out.
