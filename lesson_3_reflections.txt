@@ -23,6 +23,15 @@ Reflection 4:
 
 "What is the benefit of having a copy of the last known state of the remote stored locally?"
 
-I believe that having a copy of the last known state of a remote branch stored locally can let us be aware of other people's collaborations
-without having to incorporate them into our "source of truth" documents on the local machine. We can decide what we want to incorporate
-and what to leave out.
+I believe that having a copy of the last known state of a remote branch stored locally can let us be aware of other
+people's collaborations without having to incorporate them into our "source of truth" documents on the local machine. We
+can decide what we want to incorporate and what to leave out.
+
+Reflection 5:
+
+"How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?"
+
+If I didn't have GitHub, I would need detailed e-mails and explaining exactly what was changed. I'd need to re-save files
+with new names each time we made a change to a document. It would be complicated to track down how things have changed and
+where mistakes cropped up. It might be easier becaues then I wouldn't have to teach my co-workers how to use Git and GitHub.
+
