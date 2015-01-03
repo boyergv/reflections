@@ -35,3 +35,12 @@ If I didn't have GitHub, I would need detailed e-mails and explaining exactly wh
 with new names each time we made a change to a document. It would be complicated to track down how things have changed and
 where mistakes cropped up. It might be easier becaues then I wouldn't have to teach my co-workers how to use Git and GitHub.
 
+Reflection 6:
+
+"When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?"
+
+We want to make changes in separate branches rather than the master because then we can keep track of what everyone thinks about the changes
+being made. I wouldn't want to change a feature without letting people know about it, and by working on a different branch that is kept
+up-to-date with the master branch on GitHub, I can stay in tune with everyone and simultaneously let everyone have a say. If it were all in
+the master branch, it would be easy to keep track of things, but there would be less "collaboration" in the effort.
+
